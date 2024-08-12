@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you:
+# If you need help with YAML syntax, here are some quick references for you: 
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -21,16 +21,21 @@
 title: Negotiable Wages
 email: clairemengrdj@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Basically just some record of academic progress with my dear co-author Tianji Feng
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://immortalsrdj.github.io/Negotiable-wages/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: immortalsRDJ
-github_username:  immortalsRDJ
-
+  Basically just some record of academic progress with my dear co-author Tianji Feng
+# baseurl: "/" # the subpath of your site, e.g. /blog
+# url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: immortalsRDJ
+highlighter: rouge
+svg:
+  optimize: true
 # Build settings
-theme: minima
+# theme: minima
+highlighter-theme: monokai
+date_format: "%Y-%M-%D"
 plugins:
   - jekyll-feed
+category_dir: category/
+tag_dir: tag/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
